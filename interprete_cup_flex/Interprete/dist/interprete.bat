@@ -1,0 +1,1 @@
+java -jar Interprete.jar %1

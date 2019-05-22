@@ -1,0 +1,51 @@
+//librerias utilizadas
+
+//estructura para el arbol de expresiones
+public class arbolexp
+{
+	public float dato;
+	public int info;
+	public arbolexp izq;
+	public arbolexp der;
+}
+
+package <missing>;
+
+public class GlobalMembers
+{
+	//variables globales
+	public static String expresion = new String(new char[100]);
+	public static String Token = new String(new char[20]);
+	public static String lexema = new String(new char[100]);
+	public static int contador = 0;
+	public static int contadorLexema = 0;
+	//bool Alto = false;
+	public static boolean TokenAnterior = false;
+	public static int TipoOperacion = 0;
+	public static int punto;
+	public static int pizq = 0;
+	public static int pder = 0;
+
+	//prototipos de funciones
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//void limpiar_cadenas(char[] UnnamedParameter, int UnnamedParameter2);
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//void TomaToken();
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//arbolexp E();
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//arbolexp T();
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//arbolexp F();
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//arbolexp CrearArbol(arbolexp UnnamedParameter, arbolexp UnnamedParameter2, int UnnamedParameter3, float UnnamedParameter4);
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//void DestruyeArbol(arbolexp[] UnnamedParameter);
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//void EvaluaExpresion();
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//float EvaluaArbol(arbolexp UnnamedParameter);
+//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
+	//void DiagramaArbol(arbolexp UnnamedParameter, int UnnamedParameter2);
+
+}
